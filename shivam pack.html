@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Packaging</title>
+    <link rel="stylesheet" href="C:\Users\abhin\OneDrive\Desktop\greenWrap\stylesheet.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home fade-in">
+        <h1>Welcome to Shivam Packaging</h1>
+        <p>We provide eco-friendly packaging solutions that help businesses reduce their environmental impact while maintaining high-quality standards. Discover our range of sustainable products designed to make a difference for the planet.</p>
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in">
+        <h2>About Shivam Packaging</h2>
+        <p>Shivam Packaging is a forward-thinking company dedicated to revolutionizing the packaging industry. Our primary objective is to provide innovative, sustainable, and eco-friendly packaging solutions that help businesses reduce their environmental footprint while ensuring the highest levels of product protection.</p>
+        <p>At Shivam Packaging, we aim to replace traditional, wasteful packaging materials with sustainable alternatives. Our focus is on creating packaging that is biodegradable, recyclable, and reusable, without sacrificing quality or durability. By partnering with us, businesses can reduce their dependence on plastic and minimize waste production, contributing to a greener, more sustainable future.</p>
+        <p>Our company is driven by the vision to make sustainability accessible to businesses of all sizes, by offering affordable and customizable packaging solutions that meet industry standards and exceed customer expectations. Together, we can protect the planet while ensuring the seamless delivery of goods to consumers.</p>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product-card fade-in-slow">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjamHWDTB-MF-h68INwE9vq12tjwwit4kdWL837DUqDm_6eVJU80ukjYrQx1p_Rh2ZzKHTepxob-xvwytCojVbGLxS8QqmppQ9qnh6n4iwa708q1_I_a25sj6TxxOtlDAD9w1n-X0fMRHo/s1024/boxes.jpg" alt="Product 1">
+                <h3>Recycled Cardboard Boxes</h3>
+                <p>Eco-friendly cardboard boxes made from 100% recycled materials. Ideal for shipping and storage.</p>
+                <a href="tel:9759001469" class="btn">Contact Us</a>
+            </div>
+            <div class="product-card fade-in-slow">
+                <img src="https://kznindustrialnews.co.za/wp-content/uploads/2024/03/istockphoto-2008381979-612x612-1.jpg" alt="Product 2">
+                <h3>Plastic-Free Packaging</h3>
+                <p>Biodegradable and plastic-free packaging for a greener planet. Suitable for all product types.</p>
+                <a href="tel:9759001469" class="btn">Contact Us</a>
+            </div>
+            <div class="product-card fade-in-slow">
+                <img src="https://www.thepackagingcompany.com/knowledge-sharing/wp-content/uploads/2020/04/create-custom-packaging-without-design-programs-blog-1080x675.jpg" alt="Product 3">
+                <h3>Custom Packaging Solutions</h3>
+                <p>Get customized packaging solutions tailored to your business needs. Perfect for all industries.</p>
+                <a href="tel:9759001469" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form onsubmit="alert('Thank you for contacting us! We will get back to you shortly.'); return false;">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="btn">Contact Us</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shivam Packaging. All Rights Reserved.<br>
+        Dedicated to sustainable packaging solutions for a greener planet.</p>
+    </footer>
+    
+
+    <!-- JavaScript for smooth scrolling -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
